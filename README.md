@@ -29,19 +29,9 @@ You need Python 3 and Pygame installed on your machine.
 python main.py
 
 ---
+## Rules of Conway's Game of Life
+	1.	Underpopulation: Any live cell with fewer than two live neighbors dies.
+	2.	Survival: Any live cell with two or three live neighbors lives on to the next generation.
+	3.	Overpopulation: Any live cell with more than three live neighbors dies.
+	4.	Reproduction: Any dead cell with exactly three live neighbors becomes a live cell.
 
-## Recommended Name for Your Python File
-
-Python files should use lowercase letters separated by underscores (`snake_case`). 
-
-For this project, the best and most standard file names are:
-
-* **`main.py`** *(Recommended — standard for Python project entry points)*
-* **`game_of_life.py`**
-* **`app.py`**
-
-### How to rename it via Terminal (if needed):
-If your current Python file has an old or messy name, you can rename it in terminal like this:
-
-```bash
-mv old_filename.py main.py
